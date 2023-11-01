@@ -2,15 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Number Facts</title>
+    <title>Fun API Facts</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Number Facts</h1>
-    <input type="number" id="number-input" placeholder="Type a number">
-    <button onclick="getNumberFact()">Get Fact</button>
+
+<div class="api-container">
+    <input type="number" id="number-input" placeholder="Enter a number">
+    <button onclick="getNumberFact()">Get Number Fact</button>
     <p id="fact"></p>
-    <script src="scripts.js"></script>
+</div>
+
+<div class="api-container">
+    <button onclick="getChuckNorrisJoke()">Chuck Norris Joke</button>
+    <p id="chuckNorrisJoke"></p>
+</div>
+
+<div class="api-container">
+    <button onclick="getCatFact()">Cat Fact</button>
+    <p id="catFact"></p>
+</div>
+
+<div class="api-container">
+    <button onclick="getDadJoke()">Dad Joke</button>
+    <p id="dadJoke"></p>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
