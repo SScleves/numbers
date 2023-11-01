@@ -2,7 +2,7 @@ function getNumberFact() {
     let number = document.getElementById("number-input").value;
 
     // Using the Numbers API for this example.
-    let apiURL = `http://numbersapi.com/${number}`;
+    let apiURL = `https://numbersapi.com/${number}`;
 
     fetch(apiURL)
         .then(response => response.text())
