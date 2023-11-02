@@ -12,7 +12,6 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   <!-- Custom style -->
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="stylesheet" type="text/css" href="css/carousel.css">
   <!-- Favicon -->
   <link rel="icon" href="https://res.cloudinary.com/dfog0e294/image/upload/v1547646298/webdev/Blog/favicon.ico" type="image/x-icon">
 
@@ -26,7 +25,7 @@
 
     <!-- Logo -->
     <div class="shadow-sm rounded">
-      <img class="d-block mx-auto" src="images/TheTruth2.png" width="450" draggable="false" alt="Logo">
+      <img class="d-block mx-auto" src="images/TheTruth2.png" width="300" draggable="false" alt="Logo">
     </div>
     <!-- /Logo -->
 
@@ -40,10 +39,10 @@
         <!-- menu -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="index.html">Home</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="about.html">About me</a>
             </li>
             <!-- dropdown menu -->
@@ -77,52 +76,6 @@
 
   </header>
 
-  <!-- Carousel -->
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-    <!-- Сarousel Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    </ol>
-    <!-- Carousel Inner -->
-    <div class="carousel-inner" role="listbox">
-      <!-- Slide One -->
-      <div class="carousel-item active">
-        <img src="https://res.cloudinary.com/dfog0e294/image/upload/v1547723569/webdev/Blog/slide-01.png" class="d-block w-100 mh-100" alt="First slide">
-        <div class="carousel-caption d-none d-md-block">
-          <h2 class="display-4 text-dark">NEW POST</h2>
-          <h3 class="display-5 text-dark">Spider-Man Adventures</h3>
-        </div>
-      </div>
-      <!-- Slide Two -->
-      <div class="carousel-item">
-        <img src="https://res.cloudinary.com/dfog0e294/image/upload/v1547723569/webdev/Blog/slide-02.png" class="d-block w-100 mh-100" alt="Second slide">
-        <div class="carousel-caption d-none d-md-block">
-          <h2 class="display-4 text-dark">NEW POST</h2>
-          <h3 class="display-5 text-dark">Batman Adventures</h3>
-        </div>
-      </div>
-      <!-- Slide Three -->
-      <div class="carousel-item">
-        <img src="https://res.cloudinary.com/dfog0e294/image/upload/v1547723568/webdev/Blog/slide-03.png" class="d-block w-100 mh-100" alt="Third slide">
-        <div class="carousel-caption d-none d-md-block">
-          <h2 class="display-4 text-dark">NEW POST</h2>
-          <h3 class="display-5 text-dark">Black Panther Adventures</h3>
-        </div>
-      </div>
-      <!-- Carousel Control -->
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-  </div>
-
   <!-- ============================================
   ===================== MAIN =================== -->
   <main class="py-3 mb-3">
@@ -131,40 +84,59 @@
 
         <!-- POSTS -->
         <div class="col-md-9">
-          <!-- Spider-Man -->
-          <div class="card flex-md-row mb-4 border-light shadow-sm h-md-250">
-            <img class="card-img-left flex-auto d-none d-md-block" height="250" src="https://res.cloudinary.com/dfog0e294/image/upload/v1547038234/webdev/Blog/img01.png" alt="Card image cap">
-            <div class="card-body d-flex flex-column align-items-start">
-              <h3 class="card-title mb-0">Lego Spider-Man</h3>
-              <p class="card-text mb-auto">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis commodo odio aenean sed.
-              </p>
-              <a href="post-01.html" class="btn btn-outline-secondary">Read more</a>
-            </div>
-          </div>
-          <!-- Lego Batman -->
-          <div class="card flex-md-row mb-4 border-light shadow-sm h-md-250">
-            <img class="card-img-left flex-auto d-none d-md-block" height="250" src="https://res.cloudinary.com/dfog0e294/image/upload/v1547038239/webdev/Blog/img02.png" alt="Card image cap">
-            <div class="card-body d-flex flex-column align-items-start">
-              <h3 class="card-title mb-0">Lego Batman</h3>
-              <p class="card-text mb-auto">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis commodo odio aenean sed.
-              </p>
-              <a href="post-02.html" class="btn btn-outline-secondary">Read more</a>
-            </div>
-          </div>
-          <!-- Black Panther -->
-          <div class="card flex-md-row mb-4 border-light shadow-sm h-md-250">
-            <img class="card-img-left flex-auto d-none d-md-block" height="250" src="https://res.cloudinary.com/dfog0e294/image/upload/v1547038233/webdev/Blog/img03.png" alt="Card image cap">
-            <div class="card-body d-flex flex-column align-items-start">
-              <h3 class="card-title mb-0">Lego Black Panther</h3>
-              <p class="card-text mb-auto">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis commodo odio aenean sed.
-              </p>
-              <a href="post-03.html" class="btn btn-outline-secondary">Read more</a>
-            </div>
-          </div>
+            <style>
+                .img-spaced-left {
+                    margin-right: 30px; /* Adjusted spacing to the right of images floated to the left */
+                    margin-bottom: 20px; /* adds spacing below the image */
+                }
+                .img-spaced-right {
+                    margin-left: 30px; /* Adjusted spacing to the left of images floated to the right */
+                    margin-bottom: 20px; /* adds spacing below the image */
+                }
+            </style>
+
+          <!-- Title -->
+          <h2>Who I Am?</h2>
+          <!-- Author -->
+          <p class="lead">
+            My name is JohnBaba Numeromancer, a dedicated blogger and prophet. I'm the proud author of <strong>"Revelations"</strong> and an array of intriguing mystical writings. among other creepy stuff!
+          </p>
+
+          <!-- Preview Image -->
+            <img src="images/zoolander2.png" class="img-fluid img-spaced-left float-left" width="250" draggable="false" alt="About Me">
+            <p>
+            Alright, sit tight, and hold onto your socks! I'm the spirit who guided Baba Vanda and John of Patmos. Buckle up, 'cause I'm here to spill the beans on EVERYTHING - from the mysteries of culture and history to the wild tales of aliens and the intricate webs of politics. <strong>Oh, and if you're thinking this is gonna be a regular history lesson,</strong> you're in for quite the ride! Forget conventional wisdom, we're diving deep into the quirky, twisted, and downright hilarious realms of knowledge. Hang on!
+            </p>
+
+            <img src="images/curveball.png" class="img-fluid img-spaced-right float-right" width="250" draggable="false" alt="About Me">
+            <p>
+            Not everything is as it seems, you know. <strong>And just when you thought you had it all figured out...</strong> Boom! Here comes a <strong>curveball</strong>. From the ancient legends to the future's enigmas, I've got the 411. So, grab some popcorn and let's unravel the universe's most mysterious tales together.
+            </p>
+
+            <p>
+            Did you ever wonder why aliens never land in big cities? Or why politicians can't seem to agree on the color of the sky? Well, my friends, you've stumbled upon the right place. Dive in with me, and let's make sense of this wild, wacky world. <strong>But remember, always expect the unexpected!</strong>
+            </p>
+
+            <img src="images/prophet.png" class="img-fluid img-spaced-left float-left" width="250" draggable="false" alt="About Me">
+            <p>
+            With every twist and turn, there's a story. And trust me, I've got a truckload of them. From the sacred scrolls of old to the digital age's tweets, I've seen it all. <strong>So, if you're ready to dive deep and laugh hard,</strong> you're in the right company. Just remember to keep an open mind and a sense of humor!
+            </p>
+
+            <p>
+            Knowledge is power, and fun is essential. Here, we combine both! From the serious to the silly, the historical to the extraterrestrial, get ready to embark on a journey of epic proportions. And, of course, sprinkled with a dash of my unique twisty humor!
+            </p>
+
+            <img src="images/zoolander.png" class="img-fluid img-spaced-right float-right" width="250" draggable="false" alt="About Me">
+            <p>
+            As we venture through the pages of time and space, always remember that history is not just about dates and places. It's about the stories, the legends, the myths, and the truths. <strong>And with me as your guide,</strong> you're sure to get a taste of it all. Let the adventure begin!
+            </p>
+
+            <p>
+            Thanks for hopping aboard this roller coaster of revelations! Until next time, keep those curiosity flames burning and never stop questioning. After all, in the wise words of someone really important (probably), "The truth is out there, and so is the fun!"
+            </p>
+
         </div>
+
         <!-- /col-md-9 -->
 
         <!-- ============================================
@@ -321,6 +293,7 @@
     </div>
     <!-- /container -->
   </footer>
+
   <!-- Bootstrap core JavaScript -->
   <!-- jQuery.js -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
