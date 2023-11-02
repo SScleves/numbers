@@ -2,15 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Number Facts</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Makes it responsive -->
+    <title>API Fun</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the external CSS file -->
 </head>
 <body>
-    <h1>Number Facts</h1>
-    <input type="number" id="number-input" placeholder="Type a number">
-    <button onclick="getNumberFact()">Get Fact</button>
-    <p id="fact"></p>
+    <h1>Fun with APIs</h1>
+    <div class="container">
+        <div>
+            <button id="fetchDogImage">Fetch Dog Image</button>
+            <img id="dogImage" src="" alt="Random Dog" />
+        </div>
+        <div>
+            <button id="fetchCatImage">Fetch Cat Image</button>
+            <img id="catImage" src="" alt="Random Cat" />
+        </div>
+    </div>
+
     <script src="scripts.js"></script>
 </body>
 </html>

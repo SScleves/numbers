@@ -1,15 +1,15 @@
-function getNumberFact() {
-    let number = document.getElementById("number-input").value;
-
-    // Using the Numbers API for this example.
-    let apiURL = `https://numbersapi.com/${number}`;
-
-    fetch(apiURL)
-        .then(response => response.text())
+document.getElementById("fetchDogImage").addEventListener("click", function() {
+    fetch('https://dog.ceo/api/breeds/image/random')
+        .then(response => response.json())
         .then(data => {
-            document.getElementById("fact").textContent = data;
-        })
-        .catch(error => {
-            console.error("Error fetching the number fact:", error);
+            document.getElementById("dogImage").src = data.message;
         });
-}
+});
+
+document.getElementById("fetchCatImage").addEventListener("click", function() {
+    fetch('https://api.thecatapi.com/v1/images/search')
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById("catImage").src = data[0].url;
+        });
+});
